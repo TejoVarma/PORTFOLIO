@@ -1,5 +1,5 @@
-const URL = "http://localhost:4000"
-
+// const URL = "http://localhost:4000"
+const URL = "https://portfolio-tejo-backend.onrender.com"
 
 export async function postContact(data) {
     return await fetch(`${URL}/contact`, {
