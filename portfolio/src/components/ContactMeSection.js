@@ -51,7 +51,7 @@ const ContactMeSection = () => {
           })
         }
         else {
-          // console.log(res);
+          console.log(res);
           if (res.field) setError(ex => ({ ...ex, [res.field]: res.message }));
         }
       })
