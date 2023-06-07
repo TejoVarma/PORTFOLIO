@@ -1,0 +1,15 @@
+@media screen and (max-width: 412px) {
+  .header-container{
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+    display: flex;
+  }
+  .header .links{
+    width: 50%;
+  }
+  .header .navigation{
+    width: 50%;
+  }
+}
